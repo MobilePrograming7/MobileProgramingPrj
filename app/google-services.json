@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "695521051978",
+    "project_id": "mobileprogrammingproject-28e24",
+    "storage_bucket": "mobileprogrammingproject-28e24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695521051978:android:e6ef97506df2a470622db3",
+        "android_client_info": {
+          "package_name": "com.example.mobileprogramingproject_7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695521051978-2nsfpp24bsnjqjr3dl235bgvkbif7d4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa_iKhwZjWUbbgKzCaoMCwgNl9DNntOXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695521051978-2nsfpp24bsnjqjr3dl235bgvkbif7d4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
