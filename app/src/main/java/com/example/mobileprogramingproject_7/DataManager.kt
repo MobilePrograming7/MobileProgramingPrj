@@ -1,16 +1,10 @@
 package com.example.mobileprogramingproject_7
 
-import android.content.ContentValues.TAG
-import android.util.Log
-import com.google.firebase.firestore.ktx.firestore
-import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 import org.jsoup.Jsoup
 import org.jsoup.parser.Parser
-import org.w3c.dom.Document
 
 class DataManager {
     val wheelchair: ArrayList<DataWheelchair> = arrayListOf()
