@@ -26,7 +26,7 @@ class CenterActivity : AppCompatActivity() {
             }
 
             favBtn.setOnClickListener {
-                TODO("즐겨찾기구현필요")
+
 
             }
 
@@ -41,11 +41,11 @@ class CenterActivity : AppCompatActivity() {
         val recyclerView = binding.recyclerview
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
-        //리뷰 디비 구현하기
+        //리뷰 디비 구현하기 - 센터명같은 리뷰 찾아서 가져오기
         val reviews = ArrayList<DataReview>()
-        reviews.add(DataReview("사용자이름1", "리뷰내용"))
-        reviews.add(DataReview("사용자이름2", "리뷰내용"))
-        reviews.add(DataReview("사용자이름3", "리뷰내용"))
+        reviews.add(DataReview("사용자이름1", "리뷰내용", "센터"))
+        reviews.add(DataReview("사용자이름2", "리뷰내용", "센터"))
+        reviews.add(DataReview("사용자이름3", "리뷰내용", "센터"))
 
         val adapter = RevAdapter(reviews)
         recyclerView.adapter = adapter

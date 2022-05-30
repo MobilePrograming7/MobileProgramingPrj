@@ -41,11 +41,11 @@ class WheelchairActivity : AppCompatActivity() {
         val recyclerView = binding.recyclerview
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
-        //리뷰 디비 구현하기
+        //리뷰 디비 구현하기 - 센터명 같은 데이터로 리스트 넘김
         val reviews = ArrayList<DataReview>()
-        reviews.add(DataReview("사용자이름1", "리뷰내용"))
-        reviews.add(DataReview("사용자이름2", "리뷰내용"))
-        reviews.add(DataReview("사용자이름3", "리뷰내용"))
+        reviews.add(DataReview("사용자이름1", "리뷰내용", "센터"))
+        reviews.add(DataReview("사용자이름2", "리뷰내용", "센터"))
+        reviews.add(DataReview("사용자이름3", "리뷰내용", "센터"))
 
         val adapter = RevAdapter(reviews)
         recyclerView.adapter = adapter
