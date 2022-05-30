@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WheelchairActivity"
+    android:orientation="vertical">
+
+    <!-- <a href="https://www.flaticon.com/kr/free-icons/" title="닫기 아이콘">닫기 아이콘  제작자: Pavel Kozlov - Flaticon</a>-->
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/closebtn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TitleView"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="기관명"
+        />
+
+    <LinearLayout
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="출발"
+            android:id="@+id/startBtn"
+            />
+        <Button
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="☆"
+            android:id="@+id/favBtn"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="도착"
+            android:id="@+id/arriveBtn"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="주소"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/AddrView"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="전화번호"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/PhoneView"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="홈페이지"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/wheelInternetView"-->
+<!--            android:layout_weight="3"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="관리기관"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:gravity="center"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/wheelfclityView"-->
+<!--            android:layout_weight="3"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="설치장소"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/instlView"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="운영시간"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeView"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리뷰"
+        android:gravity="center"
+        android:background="#F3F3F3"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EAEAEA"
+        android:id="@+id/recyclerview"
+        />
+
+
+
+</LinearLayout>

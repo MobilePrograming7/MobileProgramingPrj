@@ -1,10 +1,13 @@
 package com.example.mobileprogramingproject_7
 
+import java.io.Serializable
+
 data class DataWheelchair //전국전동휠체어급속충전기표준데이터
     (val fcltyNm:String, val rdnmadr:String, val institutionPhoneNumber: String, val instlLcDesc:String,
      val weekdayOperOpenHhmm:String, val weekdayOperColseHhmm:String, val satOperOperOpenHhmm:String,
      val satOperCloseHhmm:String, val holidayOperOpenHhmm:String, val holidayCloseOpenHhmm:String,
      val latitude:String, val longitude:String)
+    :Serializable
 
 //관리기관, 도로명주소, 전화번호, 설치장소,
 //평일운영시작시간, 평일운영마감시간, 토요일운영시작시간,

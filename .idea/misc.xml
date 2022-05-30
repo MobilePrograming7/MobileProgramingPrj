@@ -3,10 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mirae/AndroidStudioProjects/MobileProgramingProject_7/app/src/main/res/layout/activity_dbtest.xml" value="0.264" />
-        <entry key="..\:/Users/mirae/AndroidStudioProjects/MobileProgramingProject_7/app/src/main/res/layout/activity_dbtest2.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/mirae/AndroidStudioProjects/MobileProgramingProject_7/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
-        <entry key="..\:/Users/mirae/AndroidStudioProjects/MobileProgramingProject_7/app/src/main/res/xml/network_config.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/s_jsshin0107/AndroidStudioProjects/MPproject/app/src/main/res/layout/activity_center.xml" value="0.25" />
+        <entry key="..\:/Users/s_jsshin0107/AndroidStudioProjects/MPproject/app/src/main/res/layout/activity_wheelchair.xml" value="0.1" />
+        <entry key="..\:/Users/s_jsshin0107/AndroidStudioProjects/MPproject/app/src/main/res/layout/rev_row.xml" value="0.2635416666666667" />
       </map>
     </option>
   </component>

@@ -1,10 +1,13 @@
 package com.example.mobileprogramingproject_7
 
+import java.io.Serializable
+
 data class DataCenter //전국교통약자이동지원센터정보표준데이터
     (val tfcwkerMvmnCnterNm:String, val rdnmadr:String, val phoneNumber: String, val weekdayRceptOpenHhmm:String,
      val weekdayRceptColseHhmm:String, val wkendRceptOpenHhmm:String, val wkendRceptCloseHhmm:String, val weekdayOperOpenHhmm:String,
      val weekdayOperColseHhmm:String, val wkendOperOpenHhmm:String, val wkendOperCloseHhmm:String, val useTrget:String,
      val useCharge:String, val insideOpratArea:String, val outsideOpratArea:String, val latitude:String, val longitude:String)
+    :Serializable
 
 //관리기관, 도로명주소, 전화번호, 평일예약접수운영시작시간,
 //평일예약접수운영마감시간, 주말예약접수운영시작시간, 주말예약접수운영마감시간, 평일차량운행시작시간,
