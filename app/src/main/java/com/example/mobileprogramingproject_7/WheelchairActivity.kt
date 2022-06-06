@@ -44,6 +44,7 @@ class WheelchairActivity : AppCompatActivity() {
             rvplusBtn.setOnClickListener {
                 val intent = Intent(applicationContext, ReviewPopupActivity::class.java)
                 intent.putExtra("centerName", centerName)
+                intent.putExtra("centerType", "Wheelchair")
                 startActivity(intent)
             }
         }

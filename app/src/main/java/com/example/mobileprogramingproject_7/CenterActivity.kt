@@ -41,6 +41,7 @@ class CenterActivity : AppCompatActivity() {
             rvplusBtn.setOnClickListener {
                 val intent = Intent(applicationContext, ReviewPopupActivity::class.java)
                 intent.putExtra("centerName", centerName)
+                intent.putExtra("centerType", "Center")
                 startActivity(intent)
             }
         }

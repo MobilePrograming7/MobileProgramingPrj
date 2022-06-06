@@ -24,6 +24,7 @@ class ReviewPopupActivity : AppCompatActivity() {
 
     private fun initLayout() {
         val centerName = intent.getStringExtra("centerName")!!
+        val centerType = intent.getStringExtra("centerType")!!
         db.collection("Centers").document(centerName)
             .collection("userID")
             .document(userID)
@@ -45,7 +46,7 @@ class ReviewPopupActivity : AppCompatActivity() {
                 else{
                     val reviewStr = reviewText.text.toString()
                     val review = hashMapOf( //저장할 데이터 정의
-                        "centerType" to "Wheelchair",
+                        "centerType" to centerType,
                         "reviewString" to reviewStr
                     )
 
