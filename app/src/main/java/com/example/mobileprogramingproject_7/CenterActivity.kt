@@ -81,7 +81,7 @@ class CenterActivity : AppCompatActivity() {
         //val data = intent.getSerializableExtra("center") as DataCenter
 
         val manager = DataManager()
-        Thread.sleep(3000L)
+        Thread.sleep(5000L)
         val data = manager.center[0]
 
         centerName = data.tfcwkerMvmnCnterNm

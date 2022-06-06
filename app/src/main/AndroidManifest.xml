@@ -34,11 +34,6 @@
             android:exported="true"
             android:theme="@style/Theme.Design.Light.NoActionBar">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <!-- 카카오 로그인 Redirect URI 관련 설정 - 윤섭 -->
         <activity
@@ -58,8 +53,15 @@
         </activity>
         <activity android:name=".CenterActivity"
             android:exported="true"
-            android:theme="@android:style/Theme.Dialog"
-            />
+            android:theme="@style/Theme.MobileProgramingProject_7.NoActionBar"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ReviewPopupActivity"
             android:exported="true"
             android:theme="@style/Theme.MobileProgramingProject_7.PopupOverlay"
